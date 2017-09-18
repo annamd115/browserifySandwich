@@ -89,3 +89,6 @@ submitButton.addEventListener("click", function(event){
 	totalCost.innerHTML = `Your Total is $${finalSandwichPrice.toFixed(2)}`;
 	console.log(finalSandwichPrice);
 });
+
+
+// module.exports = 

@@ -1,0 +1,28 @@
+{
+	"breads": [{
+			"ingredient": "Rye",
+			"price": 1.50
+		},
+		{
+			"ingredient": "Sourdough",
+			"price": 1.75
+		},
+		{
+			"ingredient": "Focaccia",
+			"price": 2.15
+		},
+		{
+			"ingredient": "Wheat",
+			"price": 1.95
+		},
+		{
+			"ingredient": "White",
+			"price": 1.75
+		},
+		{
+			"ingredient": "None",
+			"price": 0
+		}
+	]
+}
+

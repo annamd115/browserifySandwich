@@ -1,0 +1,30 @@
+{
+	"cheeses": [{
+			"ingredient": "American",
+			"price": 0.95
+		},
+		{
+			"ingredient": "Swiss",
+			"price": 1.00
+		},
+		{
+			"ingredient": "Provolone",
+			"price": 1.05
+		},
+		{
+			"ingredient": "Havarti",
+			"price": 1.10
+		},
+		{
+			"ingredient": "Pepper Jack",
+			"price": 1.00
+		},
+		{
+			"ingredient": "Muenster",
+			"price": 1.05
+		},
+		{
+			"ingredient": "None",
+			"price": 0
+		}]
+}

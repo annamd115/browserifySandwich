@@ -1,0 +1,34 @@
+{
+	"condiments": [{
+			"ingredient": "Turkey",
+			"price":1.85
+		},
+		{
+			"ingredient": "Roast Beef",
+			"price": 1.95
+		},
+		{
+			"ingredient": "Ham",
+			"price": 1.65
+		},
+		{
+			"ingredient": "Chicken",
+			"price": 1.60
+		},
+		{
+			"ingredient": "Bologna",
+			"price": 1.50
+		},
+		{
+			"ingredient": "Salami",
+			"price": 2.00
+		},
+		{
+			"ingredient": "Pastrami",
+			"price": 2.05
+		},
+		{
+			"ingredient": "None",
+			"price": 0
+		}]
+}

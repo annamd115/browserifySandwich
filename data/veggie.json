@@ -1,0 +1,14 @@
+{
+	"condiments": [{
+			"ingredient": "Tomato",
+			"price": 0.50
+		},
+		{
+			"ingredient": "Onion",
+			"price": 0.75
+		},
+		{
+			"ingredient": "Pickle",
+			"price": 0.65
+		}]
+}

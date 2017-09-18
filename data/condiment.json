@@ -1,0 +1,30 @@
+{
+	"condiments": [{
+			"ingredient": "Mayo",
+			"price": 0.25
+		},
+		{
+			"ingredient": "Ketchup",
+			"price": 0.20
+		},
+		{
+			"ingredient": "Mustard",
+			"price": 0.15
+		},
+		{
+			"ingredient": "Aioli",
+			"price": 0.35
+		},
+		{
+			"ingredient": "Guacamole",
+			"price": 0.50
+		},
+		{
+			"ingredient": "Pesto",
+			"price": 0.25
+		},
+		{
+			"ingredient": "None",
+			"price": 0
+		}]
+}
