@@ -1,23 +1,23 @@
 {
 	"categories": [{
 			"id": 1,
-			"name": "Bread"
+			"name": "Bread",
 		},
 		{
 			"id": 2,
-			"name": "Meat"
+			"name": "Meat",
 		},
 		{
 			"id": 3,
-			"name": "Cheese"
+			"name": "Cheese",
 		},
 		{
 			"id": 4,
-			"name": "Condiment"
+			"name": "Condiment",
 		},
 		{
 			"id": 5,
-			"name": "Veggie"
+			"name": "Veggie",
 		}
 	]
 }

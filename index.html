@@ -2,13 +2,80 @@
 <html>
 <head>
 	<title>Browserify Sandwich</title>
+<!-- Styling -->
+	<link rel="stylesheet" type="text/css" href="./lib/node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 
 </head>
 <body>
 
-<div id="domElement"></div>
+	<legend>Make Your Sandwich</legend>
+		<div class="menu">
 
+			<div class="ingredients" id="breads">
+				<h2>Select your bread</h2>
+					<button type="button" id="btn-Ciabatta">Ciabatta</button>
+					<button type="button" id="btn-Rye">Rye</button>
+					<button type="button" id="btn-Sourdough">Sourdough</button>
+					<button type="button" id="btn-Focaccia">Focaccia</button>
+					<button type="button" id="btn-Wheat">Wheat</button>
+					<button type="button" id="btn-White">White</button>
+					<button type="button" id="btn-None">None</button>
+			</div>
+			<div class="ingredients" id="meats">
+				<h2>Select your meat(s)</h2>
+					<button type="button" id="btn-Turkey">Turkey</button>
+					<button type="button" id="btn-Roast Beef">Roast Beef</button>
+					<button type="button" id="btn-Ham">Ham</button>
+					<button type="button" id="btn-Chicken">Chicken</button>
+					<button type="button" id="btn-Bologna">Bologna</button>
+					<button type="button" id="btn-Salami">Salami</button>
+					<button type="button" id="btn-Pastrami">Pastrami</button>
+					<button type="button" id="btn-None">None</button>
+			</div>
+			<div class="ingredients" id="cheeses">
+				<h2>Select your cheese(s)</h2>
+					<button type="button" id="btn-American">American</button>
+					<button type="button" id="btn-Swiss">Swiss</button>
+					<button type="button" id="btn-Provolone">Provolone</button>
+					<button type="button" id="btn-Havarti">Havarti</button>
+					<button type="button" id="btn-Pepper Jack">Pepper Jack</button>
+					<button type="button" id="btn-Muenster">Muenster</button>
+					<button type="button" id="btn-None">None</button>
+			</div>
+			<div class="ingredients" id="condiments">
+				<h2>Select your condiment(s)</h2>
+					<button type="button" id="btn-Mayo">Mayo</button>
+					<button type="button" id="btn-Ketchup">Ketchup</button>
+					<button type="button" id="btn-Mustard">Mustard</button>
+					<button type="button" id="btn-Aioli">Aioli</button>
+					<button type="button" id="btn-Guacamole">Guacamole</button>
+					<button type="button" id="btn-Pesto">Pesto</button>
+					<button type="button" id="btn-None">None</button>
+			</div>
+			<div class="ingredients" id="veggies">
+				<h2>Select your veggie(s)</h2>
+					<button type="button" id="btn-Tomato">Tomato</button>
+					<button type="button" id="btn-Onion">Onion</button>
+					<button type="button" id="btn-Pickle">Pickle</button>
+			</div>
+		</div>
+
+<!-- Where the final order prints and displays price -->
+<div id="theBestSanddwichEverMade"></div>
+	<h4>Toppings:</h4>
+	<h2 id="toppingEl"></h2>
+</div>
+<button type="button" id="submit">Submit Your Order</button>
+	<div class="totalCostOfSandwich" id="totalCost"></div>
+</div>
+
+
+
+
+<!-- Script tags -->
+<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="dist/app.js"></script>
 </body>
 </html>
